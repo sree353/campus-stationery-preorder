@@ -1,0 +1,7 @@
+node_modules/
+.env
+uploads/xerox/*
+!uploads/xerox/.gitkeep
+!uploads/xerox/BIT_CSE_WebTech_Lab_Manual.pdf
+!uploads/xerox/BIT_Mini_Project_Report_Draft.pdf
+*.log

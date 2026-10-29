@@ -1,0 +1,24 @@
+{
+  "name": "smart-bit-campus-stationery",
+  "version": "1.0.0",
+  "description": "Smart BIT Campus Stationery Pre-Ordering and Inventory Management Platform",
+  "scripts": {
+    "install:server": "npm --prefix server install",
+    "install:client": "npm --prefix client install",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "build:all": "npm --prefix server install && npm --prefix client install && npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "campus-stationery",
+    "pre-ordering",
+    "inventory-management",
+    "mern-stack"
+  ],
+  "author": "BIT Campus Tech",
+  "license": "ISC"
+}

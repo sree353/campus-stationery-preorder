@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build outputs
+dist/
+client/dist/
+build/
+
+# Environment files and credentials (DO NOT COMMIT)
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env
+
+# Uploads directory (preserve folder and sample PDFs for seeding, ignore user uploads)
+server/uploads/xerox/*
+!server/uploads/xerox/.gitkeep
+!server/uploads/xerox/BIT_CSE_WebTech_Lab_Manual.pdf
+!server/uploads/xerox/BIT_Mini_Project_Report_Draft.pdf
+
+# Logs and runtime data
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+pids
+*.pid
+*.seed
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
